@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Tablica kursów jest oprogramowaniem umożliwiającym prezentację kursów w sposób spersonalizowany do Twoich potrzeb">
+    <meta name="description"
+          content="Tablica kursów jest oprogramowaniem umożliwiającym prezentację kursów w sposób spersonalizowany do Twoich potrzeb">
     <meta name="author" content="Biltec">
     <link rel="icon" href="../images/favicon.ico">
 
@@ -25,135 +26,87 @@
     <link href="../css/carousel.css" rel="stylesheet">
     <link href="../css/image-zoom.css" rel="stylesheet">
 </head>
-<!-- NAVBAR
-================================================== -->
+
 <body>
-<div class="navbar-wrapper">
-    <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Project name</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </div>
-</div>
 
 
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Example headline.</h1>
-                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div><!-- /.carousel -->
+<!--&lt;!&ndash; Carousel-->
+<!--================================================== &ndash;&gt;-->
+<!--<div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+<!--&lt;!&ndash; Indicators &ndash;&gt;-->
+<!--<ol class="carousel-indicators">-->
+<!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+<!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+<!--</ol>-->
+<!--<div class="carousel-inner" role="listbox">-->
+<!--<div class="item active">-->
+<!--<img class="first-slide" width="100px" src="../images/tablica-zoom-green-1.pngX" alt="biuro@biltec.net 722 39 28 23">-->
+<!--<div class="container">-->
+<!--<div class="carousel-caption">-->
+<!--<h1>Example headline.</h1>-->
+<!--<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous"-->
+<!--Glyphicon buttons on the left and right might not load/display properly due to web browser-->
+<!--security rules.</p>-->
+<!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img class="second-slide" src="../images/tablica-zoom-green-1.pngX" alt="biuro@biltec.net 722 39 28 23">-->
+<!--<div class="container">-->
+<!--<div class="carousel-caption">-->
+<!--<h1>Another example headline.</h1>-->
+<!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida-->
+<!--at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+<!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<img class="third-slide" src="../images/tablica-normal-grey.pngX" alt="biuro@biltec.net 722 39 28 23">-->
+<!--<div class="container">-->
+<!--<div class="carousel-caption">-->
+<!--<h1>One more for good measure.</h1>-->
+<!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida-->
+<!--at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+<!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">-->
+<!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--<span class="sr-only">Previous</span>-->
+<!--</a>-->
+<!--<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">-->
+<!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--<span class="sr-only">Next</span>-->
+<!--</a>-->
+<!--</div>&lt;!&ndash; /.carousel &ndash;&gt;-->
 
 
 <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <hr class="featurette-divider">
-
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Przykuj uwagę klienta nową tablicą kursów. <span class="text-muted featurette-mutted">Wyróżnij się na tle konkurencji.</span>
+            </h2>
+            <p class="lead">Wykorzystaj pełną gamę kolorów oraz dobrą jakość obrazu jaką oferują Ci dzisiejsze
+                telewizory.</p>
+            <p class="lead">Prezentuj kursy czytelnie i ze smakiem.</p>
+            <p class="lead">Sam zdecyduj jak wielka ma być tablica poprzez wybór odpowiedniego telewizora: 32", 40",
+                50", 70", ...</p>
+            <p class="lead">Konfiguruj samodzielnie: kolory tła, rozmiary i kolory czcionek, szerokość wyświetlanego
+                obrazu, wielkość flag</p>
+            <p class="lead">W prosty i wygodny sposób zarządzaj pracą codzienną poprzez: modyfikację wartości kursów,
+                zmianę kolejności prezentowanych walut, ukrywanie walut, którymi nie handlujesz.</p>
+            <p class="lead">Zarządzaj treścią w stopce pod tabelą.</p>
+            <p class="lead">Zrezygnuj z tablicy led z zeszłego wieku.</p>
         </div>
-        <div class="col-md-5 img-wrapper"">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 img-wrapper">
+            <img class="featurette-image img-responsive center-block" src="../images/tablica-normal-red.png"
+                 alt="biuro@biltec.net 722 39 28 23">
         </div>
     </div>
 
@@ -161,14 +114,27 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Ile to kosztuje? <br/>   <span class="text-muted">Co jest w cenie?</span></h2>
-            <p class="lead">Mikrokomputer - Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Kabel HDMI i Skrętka jest w cenie usługi. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Monitor nowy lub nowy. Ja się nim nie zajmuję.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="lead">Dojazd na terenie Wrocławia jest bezpłatny. W przypadku innych miejscowości jest ustalany indywidualnie w zależności od dystansu i czasu dojazdu.</p>
+            <h2 class="featurette-heading">Co jest w zestawie? <br/> <span class="text-muted featurette-mutted">Co jest potrzebne?</span>
+            </h2>
+            <p class="lead">Kompletne rozwiązanie składa się z:
+            <ul>
+                <li>Mikrokomputera wraz z zasilaczem i kartą pamięci</li>
+                <li>Dedykowanego oprogramowania do prezentacji kursów</li>
+                <li>Dodatkowych kabli: RJ45, HDMI, USB <-> Micro USB-B</li>
+                <li>Telewizora w dowolnym rozmiarze z wejściem HDMIM</li>
+            </ul>
+            <p class="lead">Standardowo klient:
+            <ul>
+                <li>Samodzielnie realizuje zakup wybranego przez siebie modelu telewizora w określonym rozmiarze. Wymagane wejście HDMI + opcjonalnie (USB).</li>
+                <li>Powinien posiadać w kantorze komputer z poziomu, którego będzie sterował tablicą kursów. Jest wsparcie dla wszystkich systemów operacyjnych.</li>
+                <li>Powinien posiadać w kantorze router lub switch z wolnymi portami aby możliwe było połączenie komputera sterującego z mikrokomputerem.</li>
+            </ul>
+            </p>
+            <p class="lead">W razie pytań technicznych lub konfiguracyjnych proszę o kontakt.</p>
         </div>
-        <div class="col-md-5 col-md-pull-7 img-wrapper"">
-            <img class="featurette-image img-responsive center-block" src="../images/empty.png" alt="?">
+        <div class="col-md-5 col-md-pull-7 img-wrapper">
+            <img class="featurette-image img-responsive center-block" src="../images/tablica-normal-green.png"
+                 alt="biuro@biltec.net 722 39 28 23">
         </div>
     </div>
 
@@ -176,24 +142,55 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Masz pytania? <br/><span class="text-muted">Potrzebujesz rozwiązania indywidualnego?</span></h2>
-            <p class="lead"><a href="tel:+48-722-39-28-23">Zadzwoń</a> do nas lub napisz maila.</p>
-            <p class="lead">Chętnie odpowiemy na Twoje pytania i rozwiejemy wszelkie wątpliwości.</p>
-            <!--TODO dokończyć temat telefonu i maila-->
-            <!--<p class="lead">aaa  <abbr title="Phone">P:</abbr> 722 39 28 23<a href="mailto:#">biuro@biltec.net</a></p>-->
+            <h2 class="featurette-heading">
+                Ile to kosztuje?
+                <br/><span class="text-muted featurette-mutted">Za co i kiedy płacisz?</span>
+            </h2>
+
+            <p class="lead">Ceny aktualne na dzień 01.02.2017r.:
+            <ul>
+                <li>Mikrokomputer wraz z zasilaczem i kartą pamięci <span class="label label-success">270zł brutto</span></li>
+                <li>Dedykowanego oprogramowania do prezentacji kursów, kable RJ45, HDMI, USB <-> Micro USB-B, instalacja oraz szkolenie z użytkowania oprogramowania <span class="label label-success">1599zł brutto</span></li>
+                <li>Dojazd na terenie Wrocławia <span class="label label-success">0zł brutto</span></li>
+            </ul>
+            </p>
+            <p class="lead">Do ceny należy doliczyć koszt zakupu telewizora. Nowy 32" z estetyczną wąską ramką można znaleźć za około <span class="label label-success">1000zł brutto</span></p>
+            <p class="lead">Płatność odbywa się w dniu przekazania sprzętu oraz uruchomienia tablicy kursów. Na wszystko wystawione są FV.</p>
+            <p class="lead">Dojazd na terenie Wrocławia jest bezpłatny. W przypadku innych miejscowości jest ustalany
+                indywidualnie w zależności od dystansu.</p>
+            <p class="lead text-muted" style="font-size: 14px">Powyższa oferta ma charakter informacyjny i jest zaproszeniem do negocjacji, niniejsza oferta nie stanowi oferty handlowej w rozumieniu art. 66 §1 Kodeksu Cywilnego oraz innych właściwych przepisów prawnych.</p>
         </div>
         <div class="col-md-5 img-wrapper">
-            <img class="featurette-image img-responsive center-block" src="../images/empty.png" alt="?">
+            <img class="featurette-image img-responsive center-block" src="../images/tablica-normal-grey.png" alt="biuro@biltec.net 722 39 28 23">
         </div>
     </div>
 
     <hr class="featurette-divider">
 
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+        <h2 class="featurette-heading">
+            <h2 class="featurette-heading">
+                Masz pytania?<br/>
+                <span class="text-muted featurette-mutted">Interesuje Cię rozwiązanie indywidualne?</span><br/>
+                <span class="text-muted featurette-mutted">Chcesz poznać wszystkie możliwości programu?</span>
+            </h2>
+            <p class="lead">Skontaktuj się ze mną telefonicznie <span
+                    class="label label-success">+48 722 39 28 23</span> lub <a class="label label-success"
+                                                                               href="mailto:biuro@biltec.net">wyślij</a>
+                wiadomość.
+
+            </p>
+            <p class="lead">Na Twoje pytania odpowiemy rzeczowo i bez marketingowej otoczki.</p>    </div>
+        <div class="col-md-5 col-md-pull-7 img-wrapper">
+            <img class="featurette-image img-responsive center-block" src="../images/biltec.png" alt="biuro@biltec.net 722 39 28 23">
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer>
         <p class="pull-right"><a href="#">Wróć do góry</a></p>
-        <p>&copy; 2016 biltec</p>
+        <p>&copy; 2017 biltec</p>
     </footer>
 
 </div><!-- /.container -->
@@ -206,10 +203,17 @@
 <script src="../js/bootstrap.min.js"></script>
 </body>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-88816004-1', 'auto');
     ga('send', 'pageview');
